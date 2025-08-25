@@ -21,8 +21,8 @@ radarr:
 
     # Include Configuration
     include:
-      - config: radarr-hd.yaml
       - config: radarr-uhd.yaml
+      - config: radarr-hd.yaml
 
     # Media Naming Configuration
     media_naming:
