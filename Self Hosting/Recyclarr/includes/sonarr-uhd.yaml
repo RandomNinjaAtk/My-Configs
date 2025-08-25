@@ -1,0 +1,183 @@
+custom_formats:
+  - trash_ids:
+      # Miscellaneous
+      - 1bef6c151fa35093015b0bfef18279e5 # 2160p
+      - c9eafd50846d299b862ca9bb6ea91950 # x265
+      # Audio Formats
+      - 4232a509ce60c4e208d13825b7c06264 # DD+ ATMOS
+      # Audio Channels
+      - 3fbafa924f361e66fbc6187af82dfa85 # 5.1 Surround
+      - 9fb6d778592c293467437593ef394bf1 # 6.1 Surround
+      - 204c8c3e7315bb0ea81332774fa888d6 # 7.1 Surround
+      # HDR Formats
+      - 7878c33f1963fefb3d6c8657d46c2f0a # DV HDR10
+      - 2b239ed870daba8126a53bd5dc8dc1c8 # DV HDR10+
+      # HDR Optional
+      - 385e9e8581d33133c3961bdcdeffb7b4 # DV HDR10+ Boost
+      - 0dad0a507451acddd754fe6dc3a7f5e7 # HDR10+ Boost
+      # HQ Source Groups
+      - e6258996055b9fbab7e9cb2f75819294 # WEB Tier 01
+      # General Streaming Services
+      - d660701077794679fd59e8bdf4ce3a29 # AMZN
+      - f67c9ca88f463a48346062e8ad07713f # ATVP
+      - 89358767a60cc28783cdc3d0be9388a4 # DSNP
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 25
+       
+  - trash_ids:
+      # HDR Formats
+      - 3e2c4e748b64a1a1118e0ea3f4cf6875 # HDR
+      - bb019e1cd00f304f80971c965de064dc # HDR (undefined)
+      - 3497799d29a085e2ac2df9d468413c94 # HDR10
+      - a3d82cbef5039f8d295478d28a887159 # HDR10+
+      # Audio Formats
+      - 63487786a8b01b7f20dd2bc90dd4a477 # DD+
+      # Audio Channels
+      - 42cba7e38c7947a6d1d0a62580ee6d62 # 3.0 Sound
+      - 1895195e84767de180653914ce207245 # 4.0 Sound
+      # HQ Source Groups
+      - 58790d4e2fdcd9733aa7ae68ba2bb503 # WEB Tier 02
+      # General Streaming Services
+      - a880d6abc21e7c16884f3ae393f84179 # HMAX
+      - 81d1fbf600e2540cee87f3a23f9d3c1c # MAX
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 20
+
+  - trash_ids:
+    # Audio Formats
+      - dbe00161b08a25ac6154c55f95e6318d # DD
+      # Audio Channels
+      - 834e534f103938853ffced4203b53e72 # 2.0 Stereo
+      # HQ Source Groups
+      - d84935abd3f8556dcd51d4f27e22d0a6 # WEB Tier 03
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 15
+
+  - trash_ids:
+      # Audio Formats
+      - 28f6ef16d61e2d1adfce3156ed8257e3 # Opus
+      # Audio Channels
+      - bd6dd5e043aa27ff4696a08d011c7d96 # 1.0 Mono
+      # HQ Source Groups
+      - d0c516558625b04b363fa6c5c2c7cfd4 # WEB Scene
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 10
+  
+  - trash_ids:
+      # Audio Formats
+      - a50b8a0c62274a7c38b09a9619ba9d86 # AAC
+      # General Streaming Services
+      - 77a7b25585c18af08f60b1547bb9b4fb # CC
+      - 36b72f59f4ea20aad9316f475f2d9fbb # DCU
+      - 7a235133c87f7da4c8cccceca7e3c7a6 # HBO
+      - f6cce30f1733d5c8194222a7507909bb # HULU
+      - 0ac24a2a68a9700bcb7eeca8e5cd644c # iT
+      - d34870697c9db575f17700212167be23 # NF
+      - 1656adc6d7bb2c8cca6acfb6592db421 # PCOK
+      - c67a75ae4a1715f2bb4d492755ba4195 # PMTP
+      - ae58039e1319178e6be73caab5c42166 # SHO
+      - 1efe8da11bfd74fbbcd4d8117ddb9213 # STAN
+      - 9623c5c9cac8e939c1b9aedd32f640bf # SYFY
+    # Anime Optional
+      - 418f50b10f1907201b6cfdf881f467b7 # Anime Dual Audio
+      - 026d5aadd1a6b4e550b134cb6c72b3ca # Uncensored
+    # [No Category]
+      - e0c1a67f23908a55b6ae9834e8ed6727 # Single Episode
+    # Miscellaneous
+      - 1b3994c551cbb92a2c781af061f4ab44 # Scene
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 5
+
+  - trash_ids:
+      # Miscellaneous
+      - eb3d5cc0a2be0db205fb823640db6a3c # Repack v2
+      - 44e7c4de10ae50265753082e5dc76047 # Repack v3
+      - ec8fa7296b64e8cd390a1600981f3923 # Repack/Proper
+    assign_scores_to:
+      - name: 2160p Balanced
+
+  - trash_ids:
+      # Audio Formats
+      - 5964f2a8b3be407d083498e4459d05d0 # DTS
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 3
+  
+  - trash_ids:
+      # Audio Formats
+      - 3e8b714263b26f486972ee1e0fe7606c # MP3
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 2
+
+  - trash_ids:
+      # Audio Formats
+      - b6fbafa7942952a13e17e2b1152b539a # ATMOS (undefined)
+      - 1808e4b9cee74e064dfae3f1db99dbfe # TrueHD
+      - 0d7824bb924701997f874e7ff7d4844a # TrueHD ATMOS
+      - 9d00418ba386a083fbf4d58235fc37ef # DTS X
+      - c1a25cd67b5d2e08287c957b1eb903ec # DTS-ES
+      - cfa5fbd8f02a86fc55d8d223d06a5e1f # DTS-HD HRA
+      - c429417a57ea8c41d57e6990a8b0033f # DTS-HD MA
+      - 851bd64e04c9374c51102be3dd9ae4cc # FLAC
+      - 30f70576671ca933adbdcfc736a69718 # PCM
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: 1
+
+  - trash_ids:
+    # [No Category]
+      - 4a20cfb76b5f92a8ca22b894b32e71be # Multi-Episode
+    # Series Versions
+      - 3a4127d8aa781b44120d907f2cd62627 # Hybrid
+      - b735f09d3c025cbb7d75a5d38325b73b # Remaster
+    # Miscellaneous
+      - 5ab46ff851b76c337e13e81a4353875f # INTERNAL
+      - 82d40da2bc6923f41e14394075dd4b03 # No-RlsGroup
+      - e1a997ddb54e3ecbfe06341ad323c458 # Obfuscated
+      - 06d66ab109d4d2eddb2794d21526d140 # Retags
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: -15
+
+  - trash_ids:
+    # Miscellaneous
+      - 7ba05c6e0e14e793538174c679126996 # MULTi
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: -30
+        
+  - trash_ids:
+    # HDR Formats
+      - 6d0d8de7b57e35518ac0308b0ddf404e # DV
+      - 1f733af03141f068a540eec352589a89 # DV HLG
+      - 27954b0a80aab882522a88a4d9eae1cd # DV SDR
+      - 17e889ce13117940092308f48b48b45b # HLG
+      - 2a7e3be05d3861d6df7171ec74cad727 # PQ
+    # HDR Optional
+      - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
+      - 9b27ab6498ec0f31a3353992e19434ca # DV (WEBDL)
+      - 2016d1676f5ee13a5b7257ff86ac9a93 # SDR
+      - 83304f261cf516bb208c18c54c0adf97 # SDR (no WEBDL)
+      # Optional Streaming Services
+      - 43b3cf48cb385cd3eac608ee6bca7f09 # UHD Streaming Boost
+      - d2d299244a92b8a52d4921ce3897a256 # UHD Streaming Cut
+      # Language profiles
+      - ae575f95ab639ba5d15f663bf019e3e8 # Language: Not Original
+      # Miscellaneous
+      - 1bd69272e23c5e6c5b1d6c8a36fce95e # HFR
+      - 3bc5f395426614e155e585a2f056cdf1 # Season Pack
+      - 32b367365729d530ca1c124a0b180c64 # Bad Dual Groups
+      # Unwanted
+      - 15a05bc7c1a36e2b57fd628f8977e2fc # AV1
+      - 85c61753df5da1fb2aab6f2a47426b09 # BR-DISK
+      - fbcb31d8dabd2a319072b84fc0b7249c # Extras
+      - 23297a736ca77c0fc8e70f8edd7ee56c # Upscaled
+    assign_scores_to:
+      - name: 2160p Balanced
+        score: -10000
