@@ -21,6 +21,7 @@ sonarr:
     # Include Configuration
     include:
       - config: sonarr-hd.yaml
+      - config: sonarr-uhd.yaml
 
     # Media Naming Configuration
     media_naming:
