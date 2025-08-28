@@ -72,8 +72,6 @@ custom_formats:
     - 5caaaa1c08c1742aa4342d8c4cc463f2 # Repack3
     - 11cd1db7165d6a7ad9a83bc97b8b1060 # VC-1
     - ae4cfaa9283a4f2150ac3da08e388723 # VP9
-    - 2899d84dc9372de3408e6d8cc18e9666 # x264
-    - 9170d55c319f4fe40da8711ba9d8050d # x265
     - 390455c22a9cac81a738f6cbad705c3c # x266
     # [No Category]
     - e098247bc6652dd88c76644b275260ed # FLUX
@@ -89,6 +87,9 @@ custom_formats:
     - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
     # HDR Formats
     - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
+    # Miscellaneous
+    - 2899d84dc9372de3408e6d8cc18e9666 # x264
+    - 9170d55c319f4fe40da8711ba9d8050d # x265
     assign_scores_to:
       - name: Balanced
         score: 2000
