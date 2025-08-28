@@ -113,8 +113,6 @@ custom_formats:
     - ec8fa7296b64e8cd390a1600981f3923 # Repack/Proper
     - 7470a681e6205243983c4410ee4c920f # VC-1
     - 90501962793d580d011511155c97e4e5 # VP9
-    - cddfb4e32db826151d97352b8e37c648 # x264
-    - c9eafd50846d299b862ca9bb6ea91950 # x265
     - 041d90b435ebd773271cea047a457a6a # x266
     assign_scores_to:
         - name: Balanced
@@ -126,6 +124,9 @@ custom_formats:
     - 3fbafa924f361e66fbc6187af82dfa85 # 5.1 Surround
     - 9fb6d778592c293467437593ef394bf1 # 6.1 Surround
     - 204c8c3e7315bb0ea81332774fa888d6 # 7.1 Surround
+    # Miscellaneous
+    - cddfb4e32db826151d97352b8e37c648 # x264
+    - c9eafd50846d299b862ca9bb6ea91950 # x265
     # [No Category]
     - e0c1a67f23908a55b6ae9834e8ed6727 # Single Episode
     assign_scores_to:
