@@ -170,7 +170,7 @@ custom_formats:
     - 1b3994c551cbb92a2c781af061f4ab44 # Scene
     assign_scores_to:
       - name: Balanced
-        score: 1
+        score: 5
 
   - trash_ids:
     # Miscellaneous
