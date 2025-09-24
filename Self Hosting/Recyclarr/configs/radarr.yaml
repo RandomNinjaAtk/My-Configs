@@ -49,10 +49,12 @@ radarr:
         qualities:
           - name: Balanced
             qualities:
-              - WEBDL-2160p
-              - Bluray-2160p
               - WEBDL-1080p
               - Bluray-1080p
+          - name: UHD Balanced
+            qualities:
+              - WEBDL-2160p
+              - Bluray-2160p
           - name: Remux-1080p
           - name: FHD Fallback
             qualities:
