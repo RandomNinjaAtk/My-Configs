@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/recyclarr/recyclarr/master/schemas/config-schema.json
+
+# A starter config to use with Recyclarr. Most values are set to "reasonable defaults". Update the
+# values below as needed for your instance. You will be required to update the API Key and URL for
+# each instance you want to use.
+#
+# Many optional settings have been omitted to keep this template simple.
+#
+# For more details on the configuration, see the Configuration Reference on the wiki here:
+# https://github.com/recyclarr/recyclarr/wiki/Configuration-Reference
+
+# Configuration specific to Radarr.
+radarr:
+  # Set the URL/API Key to your actual instance
+  radarr-hdr:
+    base_url: http://INSERT_HOST:7878
+    api_key: INSERT_API_KEY
+        
+    delete_old_custom_formats: true
+    replace_existing_custom_formats: true
+
+    # Include Configuration
+    include:
+      - config: radarr-hdr.yaml
+
+    # Media Naming Configuration
+    media_naming:
+      folder: plex-tmdb
+      movie:
+        rename: true
+        standard: plex-tmdb
+    
+    # Quality Definition Configuration
+    quality_definition:
+      type: sqp-uhd
+      #preferred_ratio: 0.05
+
+    quality_profiles:
+      - name: Balanced
+        min_format_score: 6500
+        reset_unmatched_scores:
+          enabled: true
+        upgrade:
+          allowed: true
+          until_quality: Balanced
+          until_score: 20000
+        score_set: default
+        quality_sort: top
+        qualities:
+          - name: Balanced
+            qualities:
+              - WEBDL-2160p
+              - Bluray-2160p
